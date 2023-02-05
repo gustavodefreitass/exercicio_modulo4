@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header h1 {
+    color: aliceblue;
+}
+
+body > header {
+    background-color: rgb(43, 43, 63);
+    padding: 16px 0;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1, li {
+    margin: 5px;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 12px;
+}
+
+header li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+header li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.artigos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.artigos article img {
+    /*height: 190px;*/
+    width: 100%;
+}
+
+.artigos article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2, .artigos article {
+    margin-bottom: 16px;
+}
+
+.artigos article h3 {
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+.artigos article a {
+    background-color: rgb(34, 34, 153);
+    color: white;
+    padding: 6px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.artigos article a:hover {
+    text-decoration: underline;
+}
+
+.artigos article p, a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.artigos article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color: rgba(0, 255, 0, 0.15);
+}
+
+#sports .artigos article a {
+    background-color: rgba(35, 146, 35, 1);
+    
+}
+
+#economy {
+    background-color: #f8f59f;
+}
+
+#economy .artigos article a {
+    background-color: #ff9f1a;
+}
+
+#tecnology {
+    background-color: rgba(67, 67, 243, 0.25);
+}
+
+#tecnology .artigos article a {
+    background-color: rgb(41, 41, 212);
+}
+
+#games {
+    background-color: rgb(196, 47, 47, 0.35);
+}
+
+#games .artigos article a {
+    background-color: rgba(204, 25, 25, 0.815);
+}
